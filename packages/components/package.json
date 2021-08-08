@@ -1,5 +1,5 @@
 {
-  "name": "@sample/components",
+  "name": "@begbeder/components",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {

@@ -31,18 +31,18 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
 ### Included sample packages
 
-- **@sample/components**
+- **@begbeder/components**
 
   - [React](https://github.com/facebook/react) components library.
 
-- **@sample/app**
+- **@begbeder/app**
 
   - [React](https://github.com/facebook/react) application.
-  - Uses the `@sample/components` package (also inside monorepo).
+  - Uses the `@begbeder/components` package (also inside monorepo).
 
-- **@sample/server**
+- **@begbeder/server**
   - [Express](https://github.com/expressjs/express) application.
-  - Uses the `@sample/app` package (also inside monorepo).
+  - Uses the `@begbeder/app` package (also inside monorepo).
   - Listens on http://localhost:3000 (client only rendering) http://localhost:3000/server (SSR rendering).
 
 ### Basic structure and configurations
@@ -105,11 +105,11 @@ New `devDependencies` can be added to the root `package.json` using yarn:
 yarn add <package name> --dev -W
 ```
 
-Some packages depend on sibling packages within the monorepo. For example, in this repo, `@sample/app` depends on `@sample/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `app` like so:
+Some packages depend on sibling packages within the monorepo. For example, in this repo, `@begbeder/app` depends on `@begbeder/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `app` like so:
 
 ```json
   "dependencies": {
-    "@sample/components": "<package version>"
+    "@begbeder/components": "<package version>"
   }
 ```
 
