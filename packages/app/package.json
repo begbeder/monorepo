@@ -1,6 +1,6 @@
 {
   "name": "@sample/app",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn bundle:prod",
@@ -15,7 +15,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@sample/components": "^1.0.2",
+    "@sample/components": "^1.0.0",
     "sanitize.css": "^12.0.1"
   },
   "files": [
@@ -25,7 +25,7 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample-monorepo.git",
+  "repository": "git@github.com:begbeder/monorepo.git",
   "private": true,
   "publishConfig": {
     "access": "public"
