@@ -26,7 +26,7 @@
   ],
   "license": "MIT",
   "repository": "git@github.com:begbeder/monorepo.git",
-  "private": true,
+  "private": false,
   "publishConfig": {
     "access": "public"
   }
