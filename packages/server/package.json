@@ -1,6 +1,6 @@
 {
   "name": "@begbeder/server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha \"dist/test/**/*.spec.js\"",
@@ -12,7 +12,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@begbeder/app": "^1.0.4",
+    "@begbeder/app": "^1.0.5",
     "compression": "^1.7.4",
     "express": "^4.17.1"
   },

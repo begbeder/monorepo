@@ -1,6 +1,6 @@
 {
   "name": "@begbeder/app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn bundle:prod",
@@ -15,7 +15,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@begbeder/components": "^1.0.4",
+    "@begbeder/components": "^1.0.5",
     "sanitize.css": "^12.0.1"
   },
   "files": [
