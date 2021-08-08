@@ -13,7 +13,8 @@
     "start": "yarn start:client",
     "start:client": "yarn workspace @begbeder/app start",
     "start:server": "yarn workspace @begbeder/server start",
-    "prettify": "npx prettier . --write"
+    "prettify": "npx prettier . --write",
+    "publish": "lerna publish --force-publish"
   },
   "devDependencies": {
     "@types/chai": "^4.2.21",

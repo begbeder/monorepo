@@ -19,6 +19,7 @@
   "sideEffects": false,
   "private": false,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@begbeder:registry": "https://npm.pkg.github.com"
   }
 }
